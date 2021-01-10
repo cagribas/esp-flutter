@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

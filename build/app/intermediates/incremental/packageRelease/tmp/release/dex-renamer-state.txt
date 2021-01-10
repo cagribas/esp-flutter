@@ -1,0 +1,4 @@
+#Sun Jan 10 19:56:24 EET 2021
+base.0=/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621829574101",
+    "project_id": "espv1-92f53",
+    "storage_bucket": "espv1-92f53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621829574101:android:209e4a394969e12997815c",
+        "android_client_info": {
+          "package_name": "com.alpertuncerv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621829574101-e80a82u9l0bq5iau3gseaodtv0r7nu1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCck611ya0pPBcNHfYUWypfGzI6Lm9XdUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621829574101-e80a82u9l0bq5iau3gseaodtv0r7nu1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

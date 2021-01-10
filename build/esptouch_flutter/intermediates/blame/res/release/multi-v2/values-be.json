@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/values-be/values-be.xml",
+            "map": [
+                {
+                    "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/values-be/values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml",
+            "map": [
+                {
+                    "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/values-be/values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

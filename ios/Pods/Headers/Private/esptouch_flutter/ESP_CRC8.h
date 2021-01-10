@@ -1,0 +1,1 @@
+../../../../.symlinks/plugins/esptouch_flutter/ios/Classes/ESP_CRC8.h
