@@ -12,52 +12,43 @@ class AddDevices extends StatefulWidget {
 class _AddDevicesState extends State<AddDevices> {
   final _formKey = GlobalKey<FormState>();
   var kutular = Hive.box('devices');
-  /*bool _isEditingText = false;
-  TextEditingController _editingController;
-  String initialText = "Cihaz ismi giriniz";
-  Widget _editTitleTextField(ESPTouchResult esp, int i) {
-    if (_isEditingText)
-      return TextField(
-        onSubmitted: (newValue) {
-          setState(() {
-            initialText = newValue;
+  showAlertDialog(BuildContext context,var box, int index) {
 
-            _isEditingText = false;
-          });
-          kutular.putAt(
-              i,
-              ESPTouchResult(
-                  ip: esp.ip,
-                  bssid: esp.bssid,
-                  isim: initialText,
-                  status: false));
-        },
-        autofocus: true,
-        controller: _editingController,
-      );
-    return InkWell(
-      onTap: () {
-        setState(() {
-          _isEditingText = true;
-        });
+    // set up the buttons
+    Widget cancelButton = FlatButton(
+      child: Text("İptal"),
+      onPressed:  () {
+        Navigator.pop(context);
       },
-      child: Text(
-        initialText,
-      ),
+    );
+    Widget deleteButton = FlatButton(
+      child: Text("Sil",style: TextStyle(color: Colors.red[700]),),
+      onPressed:  () {
+        box.deleteAt(index);
+        Navigator.pop(context);
+      },
+    );
+
+    // set up the AlertDialog
+    AlertDialog alert = AlertDialog(
+      title: Text("Uyarı!"),
+      content: Text("Cihazınızı silmek istediğinizden emin misiniz? (Silindikten sonra cihazı fabrika ayarlarına geri yüklemeniz gerekir.)",style: TextStyle(
+        fontFamily: 'Roboto'
+      ),),
+      actions: [
+        cancelButton,
+        deleteButton,
+      ],
+    );
+
+    // show the dialog
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return alert;
+      },
     );
   }
-
-  @override
-  initState() {
-    super.initState();
-    _editingController = TextEditingController(text: initialText);
-  }
-
-  @override
-  void dispose() {
-    _editingController.dispose();
-    super.dispose();
-  }*/
 
   @override
   Widget build(BuildContext context) {
@@ -65,7 +56,15 @@ class _AddDevicesState extends State<AddDevices> {
     //widget.results == null ? widget.results = [] : widget.results;
 
     return Scaffold(
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      bottomNavigationBar: BottomAppBar(
+        shape: CircularNotchedRectangle(),
+        child: Container(
+          height: 60.0,
+        ),
+        color:Colors.red[300],
+
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.startDocked,
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.amber,
         onPressed: () {
@@ -100,24 +99,53 @@ class _AddDevicesState extends State<AddDevices> {
                         elevation: 5,
                         child: Column(
                           children: [
-                            TextField(
-                              textInputAction: TextInputAction.done,
-                              decoration: InputDecoration(
-                                  border: InputBorder.none,
-                                  hintText: 'Cihaz İsmi Gir/Değiştir',
-                                  hintStyle: TextStyle(
+                            Row(
+                              children: [
+                                Expanded(
+                                  flex: 4,
+                                  child: TextField(
+                                    textAlign: TextAlign.center,
+
+                                    style: TextStyle(
+
                                       color: Colors.white,
-                                      fontFamily: 'Roboto')),
-                              onChanged: (val) {
-                                box.putAt(
-                                    index,
-                                    ESPTouchResult(
-                                        ip: cihaz.ip,
-                                        bssid: cihaz.bssid,
-                                        isim: val,
-                                        status: false));
-                              },
+                                      fontFamily: 'Roboto',
+                                    ),
+
+
+                                    cursorColor: Colors.white,
+
+
+                                    textInputAction: TextInputAction.done,
+                                    decoration: InputDecoration(
+                                        border: InputBorder.none,
+                                        hintText: 'Cihaz İsmi Gir/Değiştir',
+                                        hintStyle: TextStyle(
+                                            color: Colors.white,
+                                            fontFamily: 'Roboto')),
+                                    onChanged: (val) {
+                                      box.putAt(
+                                          index,
+                                          ESPTouchResult(
+                                              ip: cihaz.ip,
+                                              bssid: cihaz.bssid,
+                                              isim: val,
+                                              status: false));
+                                    },
+                                  ),
+                                ),
+                                Expanded(
+                                  flex: 1,
+                                  child: IconButton(icon: Icon(Icons.delete,color: Colors.white,), onPressed: (){
+                                    //box.deleteAt(index);
+                                    showAlertDialog(context,box,index);
+                                  }),
+                                )
+
+
+                              ],
                             ),
+
                             Divider(
                               thickness: 1,
                             ),
@@ -128,6 +156,7 @@ class _AddDevicesState extends State<AddDevices> {
                                       ? Text(
                                           cihaz.isim,
                                           style: TextStyle(
+                                            fontSize: 18,
                                               color: Colors.white,
                                               fontFamily: 'Roboto'),
                                         )
@@ -167,81 +196,4 @@ class _AddDevicesState extends State<AddDevices> {
     );
   }
 }
-/* itemBuilder: (context, index) {
-              return Card(
-                color: Colors.teal,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(5)),
-                elevation: 5,
-                child: Container(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: <Widget>[
-                      GestureDetector(
-                        child: Column(
-                          children: [
-                            Text('IP: ',
-                                style: Theme.of(context).textTheme.bodyText1),
-                            Text(_results[index].ip,
-                                style: TextStyle(fontFamily: 'monospace')),
-                            Text(
-                              'BSSID: ',
-                              style: Theme.of(context).textTheme.bodyText1,
-                            ),
-                            Text(_results[index].bssid),
-                          ],
-                        ),
-                        onTap: () {
-                          Navigator.pushNamed(context, '/on_off',
-                              arguments: _results[index]);
-                          setState(() {});
-                        },
-                        onLongPress: () {},
-                      ),
-                    ],
-                  ),
-                ),
-              );
-            },
-            itemCount: _results.length, */
 
-/* ListView.builder(
-            itemCount: cihazlarBox.length,
-            itemBuilder: (context, index) {
-              final cihaz = cihazlarBox.getAt(index) as ESPTouchResult;
-              return Card(
-                color: Colors.teal,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(5)),
-                elevation: 5,
-                child: Container(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: <Widget>[
-                      GestureDetector(
-                        child: Column(
-                          children: [
-                            Text('IP: ',
-                                style: Theme.of(context).textTheme.bodyText1),
-                            Text(cihaz.ip,
-                                style: TextStyle(fontFamily: 'monospace')),
-                            Text(
-                              'BSSID: ',
-                              style: Theme.of(context).textTheme.bodyText1,
-                            ),
-                            Text(cihaz.bssid),
-                          ],
-                        ),
-                        onTap: () {
-                          Navigator.pushNamed(context, '/on_off',
-                              arguments: cihaz);
-                          setState(() {});
-                        },
-                        onLongPress: () {},
-                      ),
-                    ],
-                  ),
-                ),
-              );
-            },
-          ), */

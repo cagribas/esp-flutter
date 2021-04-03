@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
-        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/layout/notification_action.xml",
-        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout/notification_action.xml"
-    },
-    {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
-        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/layout/custom_dialog.xml",
         "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout/custom_dialog.xml"
     },
     {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/layout/notification_template_part_time.xml",
         "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/layout/notification_template_icon_group.xml"
     }
 ]

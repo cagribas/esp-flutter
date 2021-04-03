@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
-        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png",
-        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
-    },
-    {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
-        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
         "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
-        "merged": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
         "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     }
 ]

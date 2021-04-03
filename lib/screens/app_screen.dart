@@ -1,9 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:esptouch_example/screens/add_devices_screen.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_database/firebase_database.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -11,7 +9,6 @@ import 'package:hive/hive.dart';
 import 'package:progress_indicators/progress_indicators.dart';
 
 import '../esptouch_flutter.dart';
-import '../task_parameter_details.dart';
 import '../wifi_info.dart';
 
 class AppScreen extends StatefulWidget {
@@ -20,10 +17,10 @@ class AppScreen extends StatefulWidget {
 }
 
 const helperSSID =
-    "SSID is the technical term for a network name. When you set up a wireless home network, you give it a name to distinguish it from other networks in your neighbourhood.";
+    "SSID Wi-Fi'nizin görünen ismidir.";
 const helperBSSID =
-    "BSSID is the MAC address of the wireless access point (router).";
-const helperPassword = "The password of the Wi-Fi network";
+    "BSSID router'ınızın MAC adresidir";
+const helperPassword = "Wi-Fi Ağı Şifresi";
 
 class _AppScreenState extends State<AppScreen> {
   final _auth = FirebaseAuth.instance;
@@ -98,6 +95,7 @@ class _AppScreenState extends State<AppScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.red[300],
         actions: [
           IconButton(
             icon: Icon(Icons.close),
@@ -108,9 +106,9 @@ class _AppScreenState extends State<AppScreen> {
           ),
         ],
         title: Text(
-          'ESP-TOUCH',
+          'Smart Config',
           style: TextStyle(
-            fontFamily: 'serif-monospace',
+            fontFamily: 'Roboto',
             fontWeight: FontWeight.w800,
           ),
         ),
@@ -194,25 +192,32 @@ class _AppScreenState extends State<AppScreen> {
   }
 
   Widget form(BuildContext context) {
-    Color color = Theme.of(context).primaryColor;
+
     return Form(
       key: _formKey,
       child: ListView(
         padding: const EdgeInsets.symmetric(horizontal: 16),
         children: <Widget>[
+          SizedBox(height: 10,),
           Center(
-            child: OutlineButton(
-              highlightColor: Colors.transparent,
-              highlightedBorderColor: color,
+
+            child: RaisedButton(
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+              elevation: 15,
+
+              color: Colors.red[300],
+
+
+
               onPressed: fetchingWifiInfo ? null : fetchWifiInfo,
               child: fetchingWifiInfo
                   ? Text(
-                      'Fetching WiFi info',
-                      style: TextStyle(color: Colors.grey),
+                      'Wi-Fi Bilgisi Alınıyor',
+                      style: TextStyle(color: Colors.white),
                     )
                   : Text(
-                      'Use current Wi-Fi',
-                      style: TextStyle(color: color),
+                      'Wi-Fi Bilgisi Al',
+                      style: TextStyle(color: Colors.white,fontSize: 15),
                     ),
             ),
           ),
@@ -220,56 +225,53 @@ class _AppScreenState extends State<AppScreen> {
             controller: _ssid,
             decoration: const InputDecoration(
               labelText: 'SSID',
-              hintText: 'Tony\'s iPhone',
-              helperText: helperSSID,
+              hintText: 'Wi-Fi ismi(Otomatik)',
+              helperText: 'Wi-Fi ağınızın ismi otomatik gelecektir.'
+
             ),
           ),
           TextFormField(
             controller: _bssid,
             decoration: const InputDecoration(
               labelText: 'BSSID',
-              hintText: '00:a0:c9:14:c8:29',
-              helperText: helperBSSID,
+              hintText: '00:a0:c9:14:c8:29(Otomatik)',
+              helperText: 'BSSID Router\'ınızın MAC adresidir. Otomatik olarak gelecektir.'
+
             ),
           ),
           TextFormField(
             controller: _password,
             decoration: const InputDecoration(
               labelText: 'Password',
-              hintText: r'V3Ry.S4F3-P@$$w0rD',
-              helperText: helperPassword,
+              hintText: 'Wi-Fi şifrenizi giriniz.',
+              helperText: 'Lütfen ağınızın şifresini giriniz.'
+
             ),
+            
           ),
-          RadioListTile(
-            title: Text('Broadcast'),
-            value: ESPTouchPacket.broadcast,
-            groupValue: _packet,
-            onChanged: setPacket,
-            activeColor: color,
-          ),
-          RadioListTile(
-            title: Text('Multicast'),
-            value: ESPTouchPacket.multicast,
-            groupValue: _packet,
-            onChanged: setPacket,
-            activeColor: color,
-          ),
-          TaskParameterDetails(
-            color: color,
-            expectedTaskResults: _expectedTaskResults,
-            intervalGuideCode: _intervalGuideCode,
-            intervalDataCode: _intervalDataCode,
-            timeoutGuideCode: _timeoutGuideCode,
-            timeoutDataCode: _timeoutDataCode,
-            repeat: _repeat,
-            portListening: _portListening,
-            portTarget: _portTarget,
-            waitUdpReceiving: _waitUdpReceiving,
-            waitUdpSending: _waitUdpSending,
-            thresholdSucBroadcastCount: _thresholdSucBroadcastCount,
-          ),
+
+          SizedBox(height: 15,),
+          // RadioListTile(
+          //   title: Text('Broadcast'),
+          //   value: ESPTouchPacket.broadcast,
+          //   groupValue: _packet,
+          //   onChanged: setPacket,
+          //   activeColor: color,
+          // ),
+          // RadioListTile(
+          //   title: Text('Multicast'),
+          //   value: ESPTouchPacket.multicast,
+          //   groupValue: _packet,
+          //   onChanged: setPacket,
+          //   activeColor: color,
+          // ),
+
           Center(
+
             child: RaisedButton(
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+              elevation: 10,
+              color: Colors.amber,
               onPressed: () {
                 Navigator.push(
                   context,
@@ -278,7 +280,7 @@ class _AppScreenState extends State<AppScreen> {
                   ),
                 );
               },
-              child: const Text('Execute'),
+              child: const Text('Başlat',style: TextStyle(fontFamily:'Roboto',color: Colors.white,fontSize: 15),),
             ),
           ),
         ],
@@ -346,13 +348,13 @@ class TaskRouteState extends State<TaskRoute> {
             context: context,
             builder: (context) {
               return AlertDialog(
-                title: Text('No devices found'),
+                title: Text('Cihaz Bulunamadı'),
                 actions: <Widget>[
                   FlatButton(
                     onPressed: () {
                       Navigator.of(context)..pop()..pop();
                     },
-                    child: Text('OK'),
+                    child: Text('Tamam'),
                   ),
                 ],
               );
@@ -380,7 +382,7 @@ class TaskRouteState extends State<TaskRoute> {
             valueColor: AlwaysStoppedAnimation(Theme.of(context).primaryColor),
           ),
           SizedBox(height: 16),
-          Text('Waiting for results'),
+          Text('Şonuçlar Bekleniyor'),
         ],
       ),
     );
@@ -420,11 +422,13 @@ class TaskRouteState extends State<TaskRoute> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Task'),
+        backgroundColor: Colors.red[300],
+        title: Text('Yükleniyor...'),
       ),
       body: Container(
         child: StreamBuilder<ESPTouchResult>(
           builder: (context, AsyncSnapshot<ESPTouchResult> snapshot) {
+
             if (snapshot.hasError) {
               return error(context, 'Error in StreamBuilder');
             }

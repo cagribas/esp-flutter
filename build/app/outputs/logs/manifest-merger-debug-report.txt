@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:1:1-41:12
-MERGED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:path_provider] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:path_provider] /Users/cagribas/AndroidStudioProjects/espCompleted/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/9183dd67cc4be451f16211719ca08356/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:19.4.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/4ff95e499c31e4316d6e3bfbc8598f6b/firebase-auth-19.4.0/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/2bfb975a342a2afd86128e8c9ab308fb/firebase-database-19.5.0/AndroidManifest.xml:15:1-38:12
@@ -49,25 +49,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/8cc3b43d2fa9e21db29dadaaec4c4e7d/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/6ae41707f5d9b6cf018944460a627b87/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/ec0004a2664e6b6a3b862973b26b92e1/print-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:1:1-41:12
 	package
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:2:5-44
-		INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:2:5-44
+		INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:1:1-41:12
-		INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:1:1-41:12
-		INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:8:5-66
+ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:8:5-66
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/2bfb975a342a2afd86128e8c9ab308fb/firebase-database-19.5.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/2bfb975a342a2afd86128e8c9ab308fb/firebase-database-19.5.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/8e59db5150c430a9be9189e0dedf6fa0/play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
@@ -81,23 +81,23 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/08bf0eabd2d4c5cda61115d37ab37aa3/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/08bf0eabd2d4c5cda61115d37ab37aa3/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:9:5-80
+ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:9:22-78
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:10:5-78
+ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:10:5-78
 	android:name
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:10:22-76
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:10:22-76
 application
-ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:17:5-40:19
-MERGED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:17:5-40:19
+MERGED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-auth:19.4.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/4ff95e499c31e4316d6e3bfbc8598f6b/firebase-auth-19.4.0/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:19.4.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/4ff95e499c31e4316d6e3bfbc8598f6b/firebase-auth-19.4.0/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/2bfb975a342a2afd86128e8c9ab308fb/firebase-database-19.5.0/AndroidManifest.xml:28:5-36:19
@@ -141,55 +141,55 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cagr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/5dcff132a5400a310e6e4d814e3215cb/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:19:9-41
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:19:9-41
 	android:icon
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:20:9-43
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:20:9-43
 	android:name
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:18:9-57
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:18:9-57
 activity#com.smaho.eng.esptouchexample.MainActivity
-ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:21:9-39:20
+ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:21:9-39:20
 	android:launchMode
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:23:13-43
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:23:13-43
 	android:hardwareAccelerated
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:26:13-47
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:26:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:27:13-55
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:27:13-55
 	android:configChanges
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:25:13-137
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:25:13-137
 	android:theme
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:24:13-47
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:24:13-47
 	android:name
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:22:13-41
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:22:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:32:13-34:40
+ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:32:13-34:40
 	android:value
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:34:17-37
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:34:17-37
 	android:name
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:33:17-82
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:33:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:35:13-38:29
+ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:35:13-38:29
 action#android.intent.action.MAIN
-ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:36:17-68
+ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:36:17-68
 	android:name
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:37:17-76
+ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:37:17-76
 	android:name
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml:37:27-74
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml:37:27-74
 uses-sdk
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
-MERGED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/cagribas/AndroidStudioProjects/espCompleted/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/cagribas/AndroidStudioProjects/espCompleted/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/9183dd67cc4be451f16211719ca08356/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/9183dd67cc4be451f16211719ca08356/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-auth:19.4.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/4ff95e499c31e4316d6e3bfbc8598f6b/firebase-auth-19.4.0/AndroidManifest.xml:21:5-44
@@ -270,22 +270,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cagribas/.gradle/c
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/6ae41707f5d9b6cf018944460a627b87/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/ec0004a2664e6b6a3b862973b26b92e1/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/ec0004a2664e6b6a3b862973b26b92e1/print-1.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:19.4.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/4ff95e499c31e4316d6e3bfbc8598f6b/firebase-auth-19.4.0/AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-auth:19.4.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/4ff95e499c31e4316d6e3bfbc8598f6b/firebase-auth-19.4.0/AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/2bfb975a342a2afd86128e8c9ab308fb/firebase-database-19.5.0/AndroidManifest.xml:29:9-35:19
@@ -303,37 +303,37 @@ MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/cagribas/.gradle
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/7bd4004cc529b9a142b03cfdc3cb6054/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+		ADDED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_auth] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-76
+ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-76
 	android:name
-		ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-73
+		ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-73
 uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
-ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-86
+ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-86
 	android:name
-		ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-83
+		ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-83
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-76
+ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-76
 	android:name
-		ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-73
+		ADDED from [:esptouch_flutter] /Users/cagribas/AndroidStudioProjects/espCompleted/build/esptouch_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-73
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+		ADDED from [:firebase_database] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] /Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.4.0] /Users/cagribas/.gradle/caches/transforms-2/files-2.1/4ff95e499c31e4316d6e3bfbc8598f6b/firebase-auth-19.4.0/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents

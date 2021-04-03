@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/incremental/mergeReleaseResources/merged.dir/values-hi/values-hi.xml",
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/res/merged/release/values-hi/values-hi.xml",
             "map": [
                 {
                     "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/9972cef68f57d6fe73393e1f1824cc24/jetified-play-services-basement-17.0.0/res/values-hi/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_database/intermediates/res/merged/release/values-hi/values-hi.xml",
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_database/intermediates/incremental/mergeReleaseResources/merged.dir/values-hi/values-hi.xml",
             "map": [
                 {
                     "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/9972cef68f57d6fe73393e1f1824cc24/jetified-play-services-basement-17.0.0/res/values-hi/values.xml",

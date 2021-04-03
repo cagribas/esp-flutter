@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/res/merged/release/values-te/values-te.xml",
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/res/merged/release/values-te/values-te.xml",
             "map": [
                 {
                     "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/res/values-te/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/firebase_auth/intermediates/incremental/mergeReleaseResources/merged.dir/values-te/values-te.xml",
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/firebase_auth/intermediates/incremental/mergeReleaseResources/merged.dir/values-te/values-te.xml",
             "map": [
                 {
                     "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/res/values-te/values.xml",

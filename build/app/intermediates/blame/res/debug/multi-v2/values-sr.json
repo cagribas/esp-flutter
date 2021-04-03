@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml",
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/9972cef68f57d6fe73393e1f1824cc24/jetified-play-services-basement-17.0.0/res/values-sr/values.xml",

@@ -45,7 +45,7 @@ class _OnOffState extends State<OnOff> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.red[300],
         title: Text('Itesatec'),
       ),
       body: SafeArea(

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/path_provider/intermediates/res/merged/release/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/path_provider/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/values-en-rGB/values-en-rGB.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/path_provider/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/path_provider/intermediates/res/merged/release/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/values-en-rGB/values-en-rGB.xml",

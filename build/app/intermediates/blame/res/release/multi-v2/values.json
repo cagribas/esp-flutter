@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/bbbfdcfa579bd450dd5f608d71641061/play-services-base-17.1.0/res/values/values.xml",
@@ -23,20 +23,22 @@
                     }
                 },
                 {
-                    "source": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/app/generated/res/google-services/release/values/values.xml",
+                    "source": "/Users/cagribas/AndroidStudioProjects/espCompleted/android/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,709",
-                        "endColumns": "143,81,103,108,119,94,71",
-                        "endOffsets": "194,276,380,489,609,704,776"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "347"
                     },
                     "to": {
-                        "startLines": "104,105,106,107,108,109,110",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "7758,7902,7984,8088,8197,8317,8412",
-                        "endColumns": "143,81,103,108,119,94,71",
-                        "endOffsets": "7897,7979,8083,8192,8312,8407,8479"
+                        "startLines": "112",
+                        "startColumns": "4",
+                        "startOffsets": "8555",
+                        "endLines": "116",
+                        "endColumns": "12",
+                        "endOffsets": "8847"
                     }
                 },
                 {
@@ -59,22 +61,20 @@
                     }
                 },
                 {
-                    "source": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/app/generated/res/google-services/release/values/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "347"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,709",
+                        "endColumns": "143,81,103,108,119,94,71",
+                        "endOffsets": "194,276,380,489,609,704,776"
                     },
                     "to": {
-                        "startLines": "112",
-                        "startColumns": "4",
-                        "startOffsets": "8555",
-                        "endLines": "116",
-                        "endColumns": "12",
-                        "endOffsets": "8847"
+                        "startLines": "104,105,106,107,108,109,110",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "7758,7902,7984,8088,8197,8317,8412",
+                        "endColumns": "143,81,103,108,119,94,71",
+                        "endOffsets": "7897,7979,8083,8192,8312,8407,8479"
                     }
                 },
                 {

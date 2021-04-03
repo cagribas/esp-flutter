@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/path_provider/intermediates/res/merged/release/values-uk/values-uk.xml",
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/path_provider/intermediates/incremental/mergeReleaseResources/merged.dir/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/values-uk/values-uk.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/cagribas/AndroidStudioProjects/esp1 copy 2/build/path_provider/intermediates/incremental/mergeReleaseResources/merged.dir/values-uk/values-uk.xml",
+            "outputFile": "/Users/cagribas/AndroidStudioProjects/espCompleted/build/path_provider/intermediates/res/merged/release/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "/Users/cagribas/.gradle/caches/transforms-2/files-2.1/06c219ac32c6dce1b5731fcfbb64321c/core-1.1.0/res/values-uk/values-uk.xml",
